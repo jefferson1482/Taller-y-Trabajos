@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet"> 
+    <title>Document</title>
+</head>
+<body>
+    <!--<img src="imagenes/espacio.jpg">-->
+    <div class="login-box">
+        <h1>Regístro</h1>
+        <form>
+          <label for="Nombre">Nombre: </label>
+          <input type="text" id="Nombre">
+
+          <label for="Apellido">Apellido: </label>
+          <input type="text" id="Apellido">
+
+          <label for="Correo">Correo: </label>
+          <input type="email" id="Correo">
+
+          <label for="Fecha">Fecha de nacimiento: </label>
+          <input type="date" id="Fecha">
+
+          <label for="Contraseña">Contraseña: </label>
+          <input type="password" id="Contraseña">
+
+          <label for="País">País: </label>
+                <select type="País" id="País">
+                    <option value=""></option>
+                    <option value="Ecuador">Ecuador</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="Mexico">Mexico</option>
+                    <option value="Estados_Unidos">Estados Unidos</option>
+                    <option value="Japon">Japon</option>
+                    <option value="España">España</option>
+                    <option value="Panama">Panama</option>
+                </select>
+
+            <label for="Sexo">Sexo: </label>
+                <select type="Sexo" id="Sexo">
+                    <option value=""></option>
+                    <option value="Hombre">Hombre</option>
+                    <option value="Mujer">Mujer</option>
+                    <option value="Otros">Otros</option>
+                </select>
+
+        <div class="regis">
+            <input type="submit" onclick=" return enviarFormulario()" value="Registrarse">
+        </div>
+        </form>
+        <div id = "error"></div>
+    </div>
+    <script src="validacion.js"></script>
+</body>
+</html>

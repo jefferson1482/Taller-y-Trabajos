@@ -1,0 +1,16 @@
+body{
+    background: gray;
+    color: white;
+    text-align: center;
+}
+input{
+    color: black;
+    border-radius: 6px;
+    background: white;
+}
+
+button{
+    color: blueviolet;
+    border-radius: 2px;
+    background: white;
+}

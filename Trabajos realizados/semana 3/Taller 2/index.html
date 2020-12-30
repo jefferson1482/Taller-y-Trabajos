@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Taller</title>
+</head>
+<body>
+
+    <script>
+        var sum = 0;
+        var res = 0;
+        var multipli = 0;
+        var divi = 0;
+        var mod = 0;
+        let ingreso1 = prompt("Ingrese el primer numero");
+        let ingreso2 = prompt("Ingrese el segundo numero");
+        var numero1 = parseInt(ingreso1);
+        var numero2 = parseInt(ingreso2);
+        for (var i = 1; i<6; i++) {
+            if(i == 1) {
+                sum = numero1 + numero2;
+                alert(sum);
+                console.log(sum);
+            }
+            if(i == 2){
+                res = numero1-numero2;
+                alert(res);
+            }
+            if(i == 3){
+                multipli = numero1 * numero2;
+                alert(multipli);
+            }
+            if(i == 4){
+                divi = numero1 / numero2;
+                alert(divi);
+            }
+
+            if( i == 5){
+                mod = numero1 % numero2;
+                alert(mod);
+            }
+        }
+    </script>
+</body>
+</html>

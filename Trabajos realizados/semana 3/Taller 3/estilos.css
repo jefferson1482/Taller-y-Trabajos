@@ -1,0 +1,33 @@
+body{
+    background-color: white;
+}
+
+h1{
+    font-size: 30px;
+    font-family: 'Lucida Sans';
+    text-align: center;
+}
+.imagenes-menu img {
+    margin: 20px;
+    margin-left: 35px;
+    width: 235px;
+    height: 220px;
+    
+}
+
+.texto1{
+    font-size: 15px;
+    display: inline;
+    margin-inline: 35px;
+    margin-left: 40px;
+    color: rgb(15, 15, 136);
+}
+
+.texto2{
+    font-size: 15px;
+    display: inline;
+    margin-inline: 85px;
+    margin-left: 30px;
+    color: rgb(15, 15, 136);
+
+}

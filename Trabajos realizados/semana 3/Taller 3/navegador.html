@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Ejercicios Múltiples</title>
+        <link href="estilosnavegador.css" rel="stylesheet" />
+        <link rel="icon" type="image/png" href="images/foto-icono.webp">
+    </head>
+
+    <body>
+        <p>Versión del navegador</p>
+        <div id="result"></div>
+
+        <script>
+        function showInfo() {
+    
+            var result="";
+    
+            result+="<br>CodeName del navegador (appCodeName): "+navigator.appCodeName;
+    
+            result+="<br>Versión del navegador (appVersion): "+navigator.appVersion;
+    
+            result+="<br>Idioma del navegador (language): "+navigator.language;
+    
+            result+="<br>UserAgent (userAgent): "+navigator.userAgent;
+    
+            document.getElementById("result").innerHTML=result;
+        }
+        showInfo();
+        </script>
+    </body>
+</html>

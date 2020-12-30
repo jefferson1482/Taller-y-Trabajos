@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Ejercicios Múltiples</title>
+        <link href="estilosarea.css" rel="stylesheet" />
+        <link rel="icon" type="image/png" href="images/foto-icono.webp">
+    </head>
+    <body>
+        <input type="number" id="base" placeholder="Base">
+        <input type="number" id="altura" placeholder="Altura">
+        <button onclick=" return obtenerArea()">Calcular área</button>
+        <br><br>
+        <label>Área: </label>
+        <div id="areaResultado">
+        </div>
+
+     <script>
+     function obtenerArea(){
+        var areaResultado = document.getElementById("areaResultado");
+        var base = parseInt(document.getElementById("base").value);
+        var altura = parseInt(document.getElementById("altura").value);
+ 
+        var area = (base * altura) / 2;
+        areaResultado.innerHTML = "" + area;
+    }
+     </script>
+    </body>
+</html>

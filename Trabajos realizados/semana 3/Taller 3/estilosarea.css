@@ -1,0 +1,16 @@
+body{
+    background-color: white;
+}
+input{
+    margin-top: 4px;
+    height: 30px;   
+}
+button{
+    margin-top: 4px;
+    height: 30px;
+    color: blueviolet;
+}
+label{
+      color: brown;
+      font-size: 30px;
+}

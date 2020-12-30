@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Ejercicios Múltiples</title>
+        <link href="estiloshora.css" rel="stylesheet" />
+        <link rel="icon" type="image/png" href="images/foto-icono.webp">
+    </head>
+
+    <body>
+        <p class="texto">Hora actual</p>
+        <p id="m"></p>
+        
+        <script>
+            var d= new Date();
+            document.getElementById("m").innerHTML=d;
+        </script>
+        <p class="texto">Hora convertida en segundos</p>
+        <p id="s"></p>
+        <script>
+            var s= d.getHours()*3600 + d.getMinutes()*60 + d.getSeconds();
+            document.getElementById("s").innerHTML=s;
+        </script>
+    </body>
+</html>
